@@ -138,6 +138,14 @@ export const socialLinks = [
 
 export const projects = [
    {
+    iconUrl: snapgram,
+    theme: "btn-back-pink",
+    name: "AiFusion 🤖",
+    description:
+      "AiFusion is an AI-powered multi-model chat platform that enables users to interact with multiple AI models in real time through a unified interface. Built with Next.js 15, Tailwind CSS, Shadcn UI, Clerk, CodeRabbit, and Arcjet, it ensures seamless performance, security, and scalability with a modern, responsive design.🚀🤖",
+    link: "https://github.com/jay1535/AiFusion",
+  },
+   {
     iconUrl: threads,
     theme: "btn-back-green",
     name: "Mock-IQ 🧑‍💻",
