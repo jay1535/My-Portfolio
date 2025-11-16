@@ -137,6 +137,14 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: estate,
+    theme: "btn-back-black",
+    name: "Nimbus 🌩️",
+    description:
+      "Nimbus Lite is a modern, high-performance weather application built with React, TypeScript, and Vite. It delivers real-time weather data, search history tracking, and automatic location-based updates. Designed with Tailwind CSS and shadcn/ui, it features a fully responsive interface with dark and light modes. The project follows a clean, modular architecture using custom hooks and reusable components for maintainability and scalability. 🌤️🌧️",
+    link: "https://github.com/jay1535/Nimbus",
+  },
    {
     iconUrl: snapgram,
     theme: "btn-back-pink",
