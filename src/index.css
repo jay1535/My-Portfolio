@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 
-body {
+/* body {
   font-family: "Work Sans", sans-serif;
-}
+} */
 
 body:has(.card[data-color="blue"]:hover) {
   background-color: rgb(var(--blue-rgb) / 25%);
@@ -12,6 +12,10 @@ body:has(.card[data-color="blue"]:hover) {
 body:has(.card[data-color="green"]:hover) {
   background-color: rgb(var(--green-rgb) / 25%);
 }
+body {
+  font-family: 'Exo 2', sans-serif;
+}
+
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;

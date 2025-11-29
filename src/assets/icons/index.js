@@ -33,6 +33,8 @@ import java from './java.svg'
 import dart from './dart.svg'
 import gcp from './gcp.svg'
 import insta from './insta.png'
+import Next from './Next.js.svg'
+import Jest from './Jest.svg'
 export {
     css,
     express,
@@ -50,6 +52,7 @@ export {
     sass,
     tailwindcss,
     typescript,
+    Jest,
     linked,
     twitter,
     car,
@@ -68,6 +71,7 @@ export {
     java,
     dart,
     gcp,
-    insta
+    insta,
+    Next
 
 }

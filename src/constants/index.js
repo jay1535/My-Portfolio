@@ -25,53 +25,91 @@ import {
   java,
   dart,
 
-  insta
+  insta,
+  Jest,
+  typescript,
+  Next
 } from "../assets/icons";
 
 export const skills = [
+   {
+    imageUrl: c,
+    name: "C",
+    type: "Programming",
+  },
+   {
+    imageUrl: java,
+    name: "Java",
+    type: "Programming",
+  },
+  {
+    imageUrl: python,
+    name: "Python",
+    type: "Programming",
+  },
+   {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
   {
     imageUrl: css,
     name: "CSS",
     type: "Frontend",
+  },
+    {
+    imageUrl: javascript,
+    name: "JavaScript",
+    type: "Frontend",
+  },
+   {
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
+   {
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
+  },
+   {
+    imageUrl: github,
+    name: "GitHub",
+    type: "Version Control",
+  },
+  {
+    imageUrl: Jest,
+    name: "Jest",
+    type: "Testing",
+
+  },
+   {
+    imageUrl: mongodb,
+    name: "MongoDB",
+    type: "Database",
   },
   {
     imageUrl: express,
     name: "Express",
     type: "Backend",
   },
+ 
+
   {
-    imageUrl: git,
-    name: "Git",
-    type: "Version Control",
-  },
-  {
-    imageUrl: github,
-    name: "GitHub",
-    type: "Version Control",
-  },
-  {
-    imageUrl: html,
-    name: "HTML",
+    imageUrl: react,
+    name: "React",
     type: "Frontend",
   },
-  {
-    imageUrl: javascript,
-    name: "JavaScript",
-    type: "Frontend",
-  },
-  {
-    imageUrl: mongodb,
-    name: "MongoDB",
-    type: "Database",
-  },
+
+ 
   {
     imageUrl: nodejs,
     name: "Node.js",
     type: "Backend",
   },
   {
-    imageUrl: react,
-    name: "React",
+    imageUrl : Next,
+    name: "Next.js",
     type: "Frontend",
   },
   {
@@ -79,46 +117,32 @@ export const skills = [
     name: "Redux",
     type: "State Management",
   },
+ 
   {
-    imageUrl: tailwindcss,
-    name: "Tailwind CSS",
+    imageUrl: typescript,
+    name: "TypeScript",
     type: "Frontend",
   },
+
 
   {
     imageUrl: flutter,
     name: "Flutter",
     type: "Mobile Development",
   },
-  {
-    imageUrl: c,
-    name: "C",
-    type: "Programming",
-  },
-  {
-    imageUrl: java,
-    name: "Java",
-    type: "Programming",
-  },
+ 
+ 
   {
     imageUrl: dart,
     name: "Dart",
     type: "Programming",
   },
   
-  {
-    imageUrl: python,
-    name: "Python",
-    type: "Programming",
-  }
+  
 ];
 
 export const socialLinks = [
-  {
-    name: "Contact",
-    iconUrl: contact,
-    link: "/contact",
-  },
+  
   {
     name: "GitHub",
     iconUrl: github,
@@ -127,7 +151,7 @@ export const socialLinks = [
   {
     name: "LinkedIn",
     iconUrl: linked,
-    link: "https://www.linkedin.com/in/jayant-habbu-12713725a/",
+    link: "https://www.linkedin.com/in/jayant-habbu/",
   },
   {
     name: "Instagram",

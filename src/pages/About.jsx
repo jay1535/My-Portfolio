@@ -4,6 +4,20 @@ import SkillCard from "../components/skills";
 
 
 const About = () => {
+  function splitIntoDecreasingRows(skills) {
+  let rows = [];
+  let rowSize = Math.min(9, skills.length); // first row max 9
+  let index = 0;
+
+  while (index < skills.length && rowSize > 0) {
+    rows.push(skills.slice(index, index + rowSize));
+    index += rowSize;
+    rowSize--; // reduce by 1 for next row
+  }
+
+  return rows;
+}
+
   return (
     <section className="relative max-w-full mx-auto sm:p-16 pb-12 !pt-[126px] px-8 min-h-screen bg-[#121212] text-[#EAEAEA]">
       {/* Background Accents */}
@@ -28,20 +42,26 @@ const About = () => {
 
       {/* Skills Section */}
       <div className="py-10">
-        <h3 className="font-semibold sm:text-3xl text-xl font-poppins text-center">
-          My Skills
-        </h3>
-        <div className="mt-12 flex flex-wrap justify-center gap-8">
-          {skills.map((skill, index) => (
-            <SkillCard key={index} skill={skill} />
-          ))}
-        </div>
+  <h3 className="font-semibold sm:text-3xl text-xl font-poppins text-center">
+    My Skills
+  </h3>
+
+  <div className="mt-12 flex flex-col items-center gap-6">
+    {splitIntoDecreasingRows(skills).map((row, idx) => (
+      <div key={idx} className="flex gap-6 justify-center flex-wrap">
+        {row.map((skill, i) => (
+          <SkillCard key={i} skill={skill} />
+        ))}
       </div>
+    ))}
+  </div>
+</div>
+
 
   
 
       {/* Call-to-Action Section */}
-      <div className="mt-16 text-center bg-gradient-to-r from-[#9c0cf0] to-[#137f9d] text-white py-10 px-6 rounded-xl shadow-xl">
+      <div className="mt-16 text-center bg-gradient-to-r from-[#230584] to-[#031461] text-white py-10 px-6 rounded-xl shadow-xl">
         <h3 className="text-3xl font-extrabold tracking-wide">
           Have an Idea? Let’s Make It Happen! 🚀
         </h3>
