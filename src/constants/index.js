@@ -28,7 +28,11 @@ import {
   insta,
   Jest,
   typescript,
-  Next
+  Next,
+  sql,
+  postgre,
+  postman,
+  firebase
 } from "../assets/icons";
 
 export const skills = [
@@ -60,6 +64,11 @@ export const skills = [
     {
     imageUrl: javascript,
     name: "JavaScript",
+    type: "Frontend",
+  },
+    {
+    imageUrl: typescript,
+    name: "TypeScript",
     type: "Frontend",
   },
    {
@@ -117,14 +126,26 @@ export const skills = [
     name: "Redux",
     type: "State Management",
   },
- 
   {
-    imageUrl: typescript,
-    name: "TypeScript",
-    type: "Frontend",
+    imageUrl : sql,
+    name: "MySQL",
+    type: "Database",
   },
-
-
+  {
+    imageUrl : postgre,
+    name: "PostgreSQL",
+    type: "Database",
+  },
+  {
+    imageUrl : postman,
+    name: "Postman",
+    type: "API Testing",
+  },
+  {
+    imageUrl : firebase,
+    name: "Firebase",
+    type: "Backend-as-a-Service",
+  },
   {
     imageUrl: flutter,
     name: "Flutter",
@@ -233,5 +254,29 @@ export const projects = [
     description:
       "A ChronoFace and StyleGAN-based age progression model leverages deep learning to generate realistic aging effects on facial images. This is achieved through latent space manipulation, allowing smooth transitions between different age groups. Implemented using Python, the model relies on libraries like TensorFlow, PyTorch, and OpenCV to train on large-scale facial datasets and produce accurate age-progressed images. 🚀",
     link: "https://github.com/jay1535/Chrono",
+  },
+];
+
+export const education = [
+  {
+    name: "Bachelor of Engineering in Computer Science",
+    organization: "Dayananda Sagar Academy of Technology and Management, Bengaluru",
+    year: "2022 – Present",
+    score: "CGPA: 9.12",
+    iconUrl: threads,
+  },
+  {
+    name: "Science Pre-University",
+    organization: "S.D.M PU College, Honnavar",
+    year: "2020 – 2022",
+    score: "Percentage: 96.67%",
+    iconUrl: summiz,
+  },
+  {
+    name: "SSLC",
+    organization: "Shree DVB Gurukula, Karki",
+    year: "2019 – 2020",
+    score: "Score: 99.2%",
+    iconUrl: threads,
   },
 ];
