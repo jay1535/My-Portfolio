@@ -38,7 +38,8 @@ import {
   socket,
   intellij,
   jupyter,
-  pycharm
+  pycharm,
+  vscode
 } from "../assets/icons";
 
 export const skills = [
@@ -179,6 +180,11 @@ export const skills = [
     imageUrl: dart,
     name: "Dart",
     type: "Programming",
+  },
+  {
+    imageUrl: vscode,
+    name: "VS Code",
+    type: "IDE",
   },
   {
     imageUrl: intellij,

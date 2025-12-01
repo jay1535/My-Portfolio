@@ -29,6 +29,7 @@ import flask from "./Flask.svg"
 import intellij from "./IntelliJ IDEA.svg"
 import jupyter from "./Jupyter.svg"
 import pycharm from "./PyCharm.svg"
+import vscode from "./VS Code.svg"
 import socket from "./Socket.io.svg"
 import sql from './MySQL.svg'
 import firebase from './Firebase.svg'
@@ -55,6 +56,7 @@ export {
     javascript,
     firebase,
     mongodb,
+    vscode,
     motion,
     postman,
     django,
