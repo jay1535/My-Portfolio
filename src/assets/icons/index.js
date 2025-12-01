@@ -23,6 +23,13 @@ import snapgram from './snapgram.svg'
 import summiz from './summiz.svg'
 import threads from './threads.svg'
 import postman from './Postman.svg'
+import django from "./Django.svg"
+import figma from "./Figma.svg"
+import flask from "./Flask.svg"
+import intellij from "./IntelliJ IDEA.svg"
+import jupyter from "./Jupyter.svg"
+import pycharm from "./PyCharm.svg"
+import socket from "./Socket.io.svg"
 import sql from './MySQL.svg'
 import firebase from './Firebase.svg'
 import postgre from './PostgresSQL.svg'
@@ -50,6 +57,13 @@ export {
     mongodb,
     motion,
     postman,
+    django,
+    figma,
+    flask,
+    intellij,
+    jupyter,
+    pycharm,
+    socket,
     sql,
     postgre,
     mui,

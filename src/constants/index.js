@@ -32,7 +32,13 @@ import {
   sql,
   postgre,
   postman,
-  firebase
+  firebase,
+  flask,
+  django,
+  socket,
+  intellij,
+  jupyter,
+  pycharm
 } from "../assets/icons";
 
 export const skills = [
@@ -51,6 +57,17 @@ export const skills = [
     name: "Python",
     type: "Programming",
   },
+  {
+    imageUrl : flask,
+    name: "Flask",
+    type: "Backend",
+  },
+  {
+    imageUrl : django,
+    name: "Django",
+    type: "Backend",
+  },
+
    {
     imageUrl: html,
     name: "HTML",
@@ -137,6 +154,11 @@ export const skills = [
     type: "Database",
   },
   {
+    imageUrl : socket,
+    name: "Socket.io",
+    type: "Real-time Communication",
+  },
+  {
     imageUrl : postman,
     name: "Postman",
     type: "API Testing",
@@ -158,6 +180,21 @@ export const skills = [
     name: "Dart",
     type: "Programming",
   },
+  {
+    imageUrl: intellij,
+    name: "IntelliJ IDEA",
+    type: "IDE",
+  },
+  {
+    imageUrl: jupyter,
+    name: "Jupyter Notebook",
+    type: "IDE",
+  },
+  {
+    imageUrl: pycharm,
+    name: "PyCharm",
+    type: "IDE",
+  }
   
   
 ];
