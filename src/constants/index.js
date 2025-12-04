@@ -261,7 +261,7 @@ export const projects = [
   {
     iconUrl: threads,
     theme: "btn-back-blue",
-    name: "Notify 📖",
+    name: "SwiftNote 📖",
     description:
       "Notify is a simple and intuitive note-taking app designed to help users organize their thoughts, tasks, and ideas efficiently. With Memo, you can quickly create, edit, and manage notes with ease. 📝",
     link: "https://github.com/jay1535/MEMO",
