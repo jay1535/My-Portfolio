@@ -42,6 +42,29 @@ import {
   vscode
 } from "../assets/icons";
 
+import {
+  udemy_python,
+  
+  C,
+  ajax,
+  css3,
+  rest,
+  dsa,
+  gfg,
+  Html,
+  ieee,
+  Java,
+  javaprogramming,
+  networking,
+  Python,
+  python_certificate,
+  
+  seed,
+  techtonic,
+  web,
+} from "../assets/images";
+
+
 export const skills = [
    {
     imageUrl: c,
@@ -321,5 +344,114 @@ export const education = [
     year: "2019 – 2020",
     score: "Score: 99.2%",
     iconUrl: threads,
+  },
+];
+
+
+export const certificates = [
+  {
+    imageUrl: udemy_python,
+    title: "Python Programming",
+    issuer: "Udemy",
+    category: "Programming",
+  },
+ 
+  {
+    imageUrl: C,
+    title: "C Programming",
+    issuer: "CodeChef",
+    category: "Programming",
+  },
+  {
+    imageUrl: ajax,
+    title: "AJAX",
+    issuer: "Coursera",
+    category: "Web Development",
+  },
+  {
+    imageUrl: css3,
+    title: "CSS3",
+    issuer: "Coursera",
+    category: "Web Development",
+  },
+  {
+    imageUrl: rest,
+    title: "REST APIs",
+    issuer: "Coursera",
+    category: "Backend",
+  },
+  {
+    imageUrl: dsa,
+    title: "Java Data Structures & Algorithms",
+    issuer: "Udemy",
+    category: "DSA",
+  },
+  {
+    imageUrl: gfg,
+    title: "Problem Solving Certification",
+    issuer: "GeeksforGeeks",
+    category: "Competitive Programming",
+  },
+  {
+    imageUrl:Html,
+    title: "HTML5",
+    issuer: "CodeChef",
+    category: "Web Development",
+  },
+  {
+    imageUrl: ieee,
+    title: "IEEE Technical Certification",
+    issuer: "IEEE",
+    category: "Professional",
+  },
+  {
+    imageUrl: Java,
+    title: "Java Programming",
+    issuer: "Hackerrank",
+    category: "Programming",
+  },
+  {
+    imageUrl: javaprogramming,
+    title: "Advanced Java Programming",
+    issuer: "NPTEL",
+    category: "Programming",
+  },
+  {
+    imageUrl: networking,
+    title: "Computer Networking",
+    issuer: "Cisco",
+    category: "Networking",
+  },
+  {
+    imageUrl: Python,
+    title: "Python Basics",
+    issuer: "Infosys",
+    category: "Programming",
+  },
+  {
+    imageUrl: python_certificate,
+    title: "Python Certification",
+    issuer: "Code Chef",
+    category: "Programming",
+  },
+  
+
+  {
+    imageUrl: seed,
+    title: "Hackathon",
+    issuer: "Seed Infotech",
+    category: "Web Development",
+  },
+  {
+    imageUrl: techtonic,
+    title: "Techtonic",
+    issuer: "Techtonic",
+    category: "Hackathon",
+  },
+  {
+    imageUrl: web,
+    title: " Web Development",
+    issuer: "Coursera",
+    category: "Web Development",
   },
 ];
