@@ -249,12 +249,19 @@ export const socialLinks = [
 
 export const projects = [
   {
+    iconUrl: snapgram,
+    theme: "btn-back-yellow",
+    name: "BookWorm 📚",
+    description:"BookWorm is a modern library management web application designed to digitally manage books, users, and borrowing activities with a clean and intuitive interface. It allows admins to add, update, and track books, while users can browse the catalog, borrow books, and receive email notifications for important actions like borrow confirmations and return reminders.Built using the MERN stack, BookWorm focuses on secure authentication, role-based access, real-time updates, and a responsive UI, making library operations efficient, organized, and user-friendly.",
+    link: "https://bookworm-steel.vercel.app",
+  },
+  {
     iconUrl: estate,
     theme: "btn-back-black",
     name: "Nimbus 🌩️",
     description:
       "Nimbus Lite is a modern, high-performance weather application built with React, TypeScript, and Vite. It delivers real-time weather data, search history tracking, and automatic location-based updates. Designed with Tailwind CSS and shadcn/ui, it features a fully responsive interface with dark and light modes. The project follows a clean, modular architecture using custom hooks and reusable components for maintainability and scalability. 🌤️🌧️",
-    link: "https://github.com/jay1535/Nimbus",
+    link: "https://nimbus-pi-five.vercel.app",
   },
    {
     iconUrl: snapgram,
@@ -262,7 +269,7 @@ export const projects = [
     name: "AiFusion 🤖",
     description:
       "AiFusion is an AI-powered multi-model chat platform that enables users to interact with multiple AI models in real time through a unified interface. Built with Next.js 15, Tailwind CSS, Shadcn UI, Clerk, CodeRabbit, and Arcjet, it ensures seamless performance, security, and scalability with a modern, responsive design.🚀🤖",
-    link: "https://github.com/jay1535/AiFusion",
+    link: "https://ai-fusion-ten.vercel.app",
   },
    {
     iconUrl: threads,
@@ -270,25 +277,26 @@ export const projects = [
     name: "Mock-IQ 🧑‍💻",
     description:
       'Mock-IQ is an AI-powered mock interview application built using Next.js for a seamless frontend experience and PostgreSQL for efficient data management. It leverages the Gemini AI API to generate dynamic, personalized interview questions and provide real-time feedback based on user responses. The app simulates real interview scenarios across various domains, helping users enhance their communication and problem-solving skills.🚀🧑‍💻',
-    link: " https://github.com/jay1535/MOCK-IQ",
+    link: " https://mock-iq.vercel.app",
+  },
+   {
+    iconUrl: summiz,
+    theme: "btn-back-blue",
+    name: "SwiftNote 📖",
+    description:
+      "Notify is a simple and intuitive note-taking app designed to help users organize their thoughts, tasks, and ideas efficiently. With Memo, you can quickly create, edit, and manage notes with ease. 📝",
+    link: "https://swiftnotes-lilac.vercel.app",
   },
 
   {
-    iconUrl: summiz,
+    iconUrl: estate,
     theme: "btn-back-pink",
     name: "Bolt.new 🧑‍💻",
     description:
       'Bolt.new is a fast, collaborative workspace builder inspired by bolt.new, built with Next.js, Convex, Gemini AI, Sandbox, and shadcn/ui. It offers real-time sync, intelligent suggestions, and a sandboxed environment for safe experimentation — all in a lightweight, beautiful, and seamless experience for creators and teams.🚀🧑‍💻',
     link: " https://github.com/jay1535/Bolt.new",
   },
-  {
-    iconUrl: threads,
-    theme: "btn-back-blue",
-    name: "SwiftNote 📖",
-    description:
-      "Notify is a simple and intuitive note-taking app designed to help users organize their thoughts, tasks, and ideas efficiently. With Memo, you can quickly create, edit, and manage notes with ease. 📝",
-    link: "https://github.com/jay1535/MEMO",
-  },
+ 
   {
     iconUrl: snapgram,
     theme: "btn-back-pink",
