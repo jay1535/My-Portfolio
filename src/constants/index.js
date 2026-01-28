@@ -256,6 +256,13 @@ export const projects = [
     link: "https://bookworm-steel.vercel.app",
   },
   {
+    iconUrl: summiz,
+    theme: "btn-back-black",
+    name: "NeuroStack 🧑‍💻",
+    description:"NeuroStack is a modern full-stack AI platform focused on intelligent learning and productivity. It integrates scalable web technologies with AI-driven features like analytics, automation, and smart user experiences, delivering clean UI, secure authentication, and performance-optimized workflows for real-world applications.",
+    link: "https://neurostack-zeta.vercel.app",
+  },
+  {
     iconUrl: estate,
     theme: "btn-back-black",
     name: "Nimbus 🌩️",
